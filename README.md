@@ -8,3 +8,5 @@ Desafios concluidos
 Social-links-profile: https://igorgomesl.github.io/frontend_mentor/Social-links-profile/
 
 blog-preview-card: https://igorgomesl.github.io/frontend_mentor/blog-preview-card/
+
+qr-code-component-main: https://igorgomesl.github.io/frontend_mentor/qr-code-component-main/
