@@ -96,7 +96,6 @@ main {
 
 #summary {
     flex: auto;
-    height: 60vh;
     background-color: var(--Fundo-cor);
     display: flex;
     flex-direction: column;
@@ -171,9 +170,10 @@ div.envio {
 }
 
 button {
-    width: 315px;
+    width: 100%;
+    max-width: 315px;
     font-weight: 800;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-family: "Hanken Grotesk", sans-serif;
     color: var(--Fundo-cor);
     background-color: var(--Neutro-summary);
