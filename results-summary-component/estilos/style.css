@@ -40,7 +40,8 @@ main {
 
 #result {
     flex: auto;
-    height: 290px;
+    height: auto;
+    min-height: 290px;
     background-image: linear-gradient(var(--Gradiente1-result),var(--Gradiente2-result));
     border-radius: 0px 0px 50px 50px;
     text-align: center;
@@ -179,4 +180,21 @@ button {
     padding: 20px;
     border-radius: 40px;
     margin-top: 30px;
+}
+
+@media (max-height: 768px) and (orientation: landscape) {
+  #result{
+    min-height: 200px;   
+    border-radius: 0 0 30px 30px;
+  }
+
+  #result > p{
+    margin: 0 20px;      
+    font-size: 1rem;
+  }
+
+  button{
+    margin-top: 12px;    
+    padding: 14px;
+  }
 }
