@@ -182,7 +182,7 @@ button {
     margin-top: 30px;
 }
 
-@media (max-height: 768px) and (orientation: landscape) {
+@media (max-height: 450px) and (orientation: landscape) {
   #result{
     min-height: 200px;   
     border-radius: 0 0 30px 30px;
