@@ -40,11 +40,10 @@ main {
 
 #result {
     flex: auto;
-    height: 40vh;
+    height: 290px;
     background-image: linear-gradient(var(--Gradiente1-result),var(--Gradiente2-result));
     border-radius: 0px 0px 50px 50px;
     text-align: center;
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -181,4 +180,3 @@ button {
     border-radius: 40px;
     margin-top: 30px;
 }
-
