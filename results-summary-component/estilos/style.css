@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --Fundo-cor: white;
+    --Fundo-Reaction: hsla(0, 100%, 67%, 0.062);
+    --Fundo-Memory: hsla(39, 100%, 56%, 0.062);
+    --Fundo-Verbal: hsl(166, 100%, 37%, 0.062);
+    --Fundo-Visual: hsl(234, 85%, 45%, 0.062);
+    --Gradiente1-result: hsl(252, 100%, 67%);
+    --Gradiente2-result: hsl(241, 81%, 54%);
+    --Neutro-result: hsl(241, 100%, 89%);
+    --Neutro-summary: hsl(224, 30%, 27%);
+    --Gradiente1-circle: hsla(256, 72%, 46%, 1);
+    --Gradiente2-circle: hsla(241, 72%, 46%, 0);
+    --Fonte-Reaction: hsl(0, 100%, 67%);
+    --Fonte-Memory: hsl(39, 100%, 56%);
+    --Fonte-Verbal: hsl(166, 100%, 37%);
+    --Fonte-Visual: hsl(234, 85%, 45%);
+  
+}
+
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Fundo-cor);
+    line-height: 1.5;
+}
+
+#result {
+    flex: auto;
+    height: 40vh;
+    background-image: linear-gradient(var(--Gradiente1-result),var(--Gradiente2-result));
+    border-radius: 0px 0px 50px 50px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    
+}
+
+#result h2 {
+    align-self: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: var(--Neutro-result);
+    
+}
+
+#result .circle {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    padding: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--Gradiente1-circle), var(--Gradiente2-circle));
+}
+
+#result .circle h1 {
+    font-size: 2em;
+    color: var(--Fundo-cor);
+    font-weight: 800;
+}
+
+#result .circle p {
+    color: var(--Neutro-result);
+    font-size: 0.8em;
+}
+
+#result h1{
+    color: var(--Fundo-cor);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+#result > p {
+    font-size: 1.125em;
+    color: var(--Neutro-result);
+    margin: 0px 50px;
+    
+}
+
+
+#summary {
+    flex: auto;
+    height: 60vh;
+    background-color: var(--Fundo-cor);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#summary h2 {
+    color: var(--Neutro-summary);
+    font-size: 1em;
+    font-weight: 800;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+#summary .skill {
+    display: flex;
+    margin: 10px 40px;
+    padding: 7px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+#summary .skill p {
+    display: inline;
+    font-weight: 500;
+
+}
+
+#summary #reaction {
+    background-color: var(--Fundo-Reaction);
+}
+
+#summary #reaction .imagemdescribe p {
+    color: var(--Fonte-Reaction);
+}
+
+#summary .skill .firstnumbersummary {
+    color: var(--Neutro-summary)
+}
+
+#summary .skill .lastnumbersummary {
+    color: var(--Neutro-result)
+}
+
+#summary #memory {
+    background-color: var(--Fundo-Memory);
+}
+
+#summary #memory .imagemdescribe p {
+    color: var(--Fonte-Memory);
+}
+
+#summary #verbal {
+    background-color: var(--Fundo-Verbal);
+}
+
+#summary #verbal .imagemdescribe p {
+    color: var(--Fonte-Verbal);
+}
+
+#summary #visual {
+    background-color: var(--Fundo-Visual);
+}
+
+#summary #visual .imagemdescribe p {
+    color: var(--Fonte-Visual);
+}
+
+.button {
+    width: 315px;
+    font-weight: 800;
+    font-size: 1.125em;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: var(--Fundo-cor);
+    background-color: var(--Neutro-summary);
+    padding: 20px;
+    border-radius: 40px;
+    border: 2px dashed red;
+    margin: 40px 0px 0px 40px;
+    
+}
