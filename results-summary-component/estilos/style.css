@@ -12,6 +12,7 @@
 
 :root {
     --Fundo-cor: white;
+    --Fundo-Neutro: hsl(221, 100%, 96%);
     --Fundo-Reaction: hsla(0, 100%, 67%, 0.062);
     --Fundo-Memory: hsla(39, 100%, 56%, 0.062);
     --Fundo-Verbal: hsl(166, 100%, 37%, 0.062);
