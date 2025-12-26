@@ -18,7 +18,7 @@
     }
 
     #result {
-        width: 320px;
+        width: 250px;
         height: 500px;
         border-radius: 40px;
         display: flex;
@@ -54,9 +54,29 @@
     
     }
 
+    #summary h2 {
+        font-size: 1.2em;
+        padding: 20px;
+        margin-left: 10px;
+    }
+
+    #summary .skill {
+        display: flex;
+        margin: 10px 20px;
+        margin-top: 30px;
+        padding: 7px;
+        border-radius: 5px;
+        
+    }
+
+    #summary .skill p {
+        display: inline;
+        font-weight: 500;
+
+    }
+
     button {
-        max-width: 200px;
-        max-height: 100px;
+        width: 250px;
     }
 
 }
