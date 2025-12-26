@@ -61,18 +61,10 @@
     }
 
     #summary .skill {
-        display: flex;
-        margin: 10px 20px;
+        height: 50px;
+        margin: 0px 20px;
         margin-top: 30px;
-        padding: 7px;
-        border-radius: 5px;
         
-    }
-
-    #summary .skill p {
-        display: inline;
-        font-weight: 500;
-
     }
 
     button {
