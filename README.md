@@ -16,3 +16,5 @@ https://www.frontendmentor.io/challenges
 - **QR Code Component**  
   🔗 https://igorgomesl.github.io/frontend_mentor/qr-code-component-main/
 
+  - **Results Summary Component**  
+  🔗 https://igorgomesl.github.io/frontend_mentor/results-summary-component/
