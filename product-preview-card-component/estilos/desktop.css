@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+
+    body { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+
+    .card-perfume {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        border-radius: 20px;
+        max-width: 600px;
+    }
+
+   .card-image-perfume {
+    background-image: url('../images/image-product-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px 0px 0px 20px;
+   }
+
+   .card-information-perfume {
+    border-radius: 0px 20px 20px 0px;
+    width: 300px;
+    height: 400px;
+   }
+
+   .card-perfume-descrition p {
+    font-size: 1em;
+   }
+
+   #card-button {
+        margin-top: 30px;
+    }
+}
+
+
+
+

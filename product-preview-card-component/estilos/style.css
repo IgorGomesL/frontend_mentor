@@ -23,19 +23,27 @@
 
 body {
     background-color: var(--Background-Body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .card-perfume {
     margin: 20px;
     border-radius: 10px;
     background-color: var(--White);
+    max-width: 350px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.164);
 }
 
 /*Imagem*/
 
-.card-image-perfume img {
-    max-width: 100%;
-    display: block;
+.card-image-perfume {
+    height: 47vh;
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     border-radius: 10px 10px 0px 0px;
 }
 
