@@ -1,15 +1,12 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px) {
+  .results-card {
+    margin: 20vw;
+  }
 
-    main {
-        margin: 20vw;
-    }
-
-    #summary .skill {
-        height: 50px;
-        margin: 15px 40px;
-        
-        
-    }
+  .summary-item {
+    height: 50px;
+    margin: 15px 40px;
+  }
 }

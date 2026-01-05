@@ -1,75 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Results summary component</title>
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/tablet.css">
-    <link rel="stylesheet" href="estilos/desktop.css">
-    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Results summary component</title>
+  <link rel="stylesheet" href="estilos/style.css" />
+  <link rel="stylesheet" href="estilos/tablet.css" />
+  <link rel="stylesheet" href="estilos/desktop.css" />
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/png" />
 </head>
+
 <body>
-    <main>
-        <section id="result">
-            <h2>Your Result</h2>
-            <article class="circle">
-                <h1>76</h1>
-                <p>of 100</p>
-            </article>
-            <h1>Great</h1>
-            <p>You scored higher than 65% of the people who have taken these tests.</p>
-        </section>
-        <section id="summary">
-            <h2>Summary</h2>
-            <article class="skill" id="reaction">
-                <div class="imagemdescribe">
-                    <img src="assets/images/icon-reaction.svg" alt="Simbolo do Icone de reação">
-                    <p>Reaction</p>
-                </div>
-                <div class="numbers">
-                    <p class="firstnumbersummary">80 </p>
-                    <p class="lastnumbersummary">/ 100</p>
-                </div>
-            </article>
-            <article class="skill" id="memory">
-                <div class="imagemdescribe">
-                    <img src="assets/images/icon-memory.svg" alt="Simbolo do Icone de Memória">
-                    <p>Memory</p>
-                </div>
-                <div class="numbers">
-                    <p class="firstnumbersummary">92 </p>
-                    <p class="lastnumbersummary">/ 100</p>
-                </div>
-            </article>
-            <article class="skill" id="verbal">
-                <div class="imagemdescribe">
-                    <img src="assets/images/icon-verbal.svg" alt="Simbolo do Icone de Verbal">
-                    <p>Verbal</p>
-                </div>
-                <div class="numbers">
-                    <p class="firstnumbersummary">61 </p>
-                    <p class="lastnumbersummary">/ 100</p>
-                </div>
-            </article>
-            <article class="skill" id="visual">
-                <div class="imagemdescribe">
-                    <img src="assets/images/icon-visual.svg" alt="Simbolo do Icone de Visual">
-                    <p>Visual</p>
-                </div>
-                <div class="numbers">
-                    <p class="firstnumbersummary">73 </p>
-                    <p class="lastnumbersummary">/ 100</p>
-                </div>
-            </article>
-            <div class="envio">
-                <button>
-                    Continue
-                </button>
-            </div>
+  <main class="results-card">
+    <!-- RESULT -->
+    <section class="result-panel" aria-labelledby="result-title">
+      <h2 id="result-title" class="result-panel__title">Your Result</h2>
 
-        </section>
+      <div class="score-circle" aria-label="Score 76 of 100">
+        <p class="score-circle__value">76</p>
+        <p class="score-circle__total">of 100</p>
+      </div>
 
-    </main>
+      <h1 class="result-panel__headline">Great</h1>
+      <p class="result-panel__description">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+
+    <!-- SUMMARY -->
+    <section class="summary-panel" aria-labelledby="summary-title">
+      <h2 id="summary-title" class="summary-panel__title">Summary</h2>
+
+      <ul class="summary-list">
+        <li class="summary-item summary-item--reaction">
+          <div class="summary-item__label">
+            <img src="assets/images/icon-reaction.svg" alt="" aria-hidden="true" />
+            <span class="summary-item__name">Reaction</span>
+          </div>
+
+          <p class="summary-item__score">
+            <span class="summary-item__score-value">80</span>
+            <span class="summary-item__score-total">/ 100</span>
+          </p>
+        </li>
+
+        <li class="summary-item summary-item--memory">
+          <div class="summary-item__label">
+            <img src="assets/images/icon-memory.svg" alt="" aria-hidden="true" />
+            <span class="summary-item__name">Memory</span>
+          </div>
+
+          <p class="summary-item__score">
+            <span class="summary-item__score-value">92</span>
+            <span class="summary-item__score-total">/ 100</span>
+          </p>
+        </li>
+
+        <li class="summary-item summary-item--verbal">
+          <div class="summary-item__label">
+            <img src="assets/images/icon-verbal.svg" alt="" aria-hidden="true" />
+            <span class="summary-item__name">Verbal</span>
+          </div>
+
+          <p class="summary-item__score">
+            <span class="summary-item__score-value">61</span>
+            <span class="summary-item__score-total">/ 100</span>
+          </p>
+        </li>
+
+        <li class="summary-item summary-item--visual">
+          <div class="summary-item__label">
+            <img src="assets/images/icon-visual.svg" alt="" aria-hidden="true" />
+            <span class="summary-item__name">Visual</span>
+          </div>
+
+          <p class="summary-item__score">
+            <span class="summary-item__score-value">73</span>
+            <span class="summary-item__score-total">/ 100</span>
+          </p>
+        </li>
+      </ul>
+
+      <button class="summary-panel__button" type="button">Continue</button>
+    </section>
+  </main>
 </body>
 </html>
