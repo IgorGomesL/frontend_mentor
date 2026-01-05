@@ -40,6 +40,7 @@ body {
 
 .product-card__image {
   margin: 0;
+  display: block;
 }
 
 .product-card__image img {
