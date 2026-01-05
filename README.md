@@ -18,3 +18,6 @@ https://www.frontendmentor.io/challenges
 
 - **Results Summary Component**  
   🔗 https://igorgomesl.github.io/frontend_mentor/results-summary-component/
+
+- **Product Preview Card Component**  
+  🔗 https://igorgomesl.github.io/frontend_mentor/product-preview-card-component/
