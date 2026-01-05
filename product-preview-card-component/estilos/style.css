@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');/*font-family: "Montserrat", sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap'); /* font-family: "Fraunces", serif;*/
+/*Mobile First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(212, 21%, 14%);
+    --Background-Body: hsl(30, 38%, 92%);
+
+    --Grey: hsl(228, 12%, 48%);
+    --Green-500: hsl(158, 36%, 37%);
+    --Green-700: hsl(158, 42%, 18%);
+}
+
+body {
+    background-color: var(--Background-Body);
+}
+
+.card-perfume {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: var(--White);
+}
+
+/*Imagem*/
+
+.card-image-perfume img {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Descrição*/
+.card-information-perfume {
+    padding: 20px;
+}
+
+.card-perfume-descrition {
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-perfume-descrition h3 {
+    font-weight: 500;
+    font-size: 0.8em;
+    letter-spacing: 4px;
+    color: var(--Grey);
+    padding-bottom: 10px;
+}
+
+.card-perfume-descrition h1 {
+    font-weight: 700;
+    font-family: "Fraunces", serif;  
+    padding-bottom: 10px;
+}
+
+.card-perfume-descrition p {
+    font-family: "Libre Baskerville", serif;
+    letter-spacing: 1px;
+    color: var(--Grey);
+    padding-bottom: 20px;
+}
+
+.card-price-perfume {
+    font-family: "Fraunces", serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#final-price {
+    color: var(--Green-500);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#original-price {
+    color: var(--Grey);
+    text-decoration: line-through;
+    margin-left: 20px;
+    align-self: center;
+    justify-self: center;
+    font-size: 0.8em;
+}
+
+#card-button {
+    width: 100%;
+    color: var(--White);
+    background-color: var(--Green-500);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.411);
+    transition: background-color 0.8s;
+}
+
+#card-button:hover {
+    cursor: pointer;
+    background-color: var(--Green-700);
+}
+
+#card-button i {
+    margin-right: 10px;
+}
