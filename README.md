@@ -1,12 +1,18 @@
-# frontend_mentor
-Coleção de desafios do Frontend Mentor utilizados para aprimorar habilidades em desenvolvimento front-end, incluindo layout responsivo, semântica HTML, estilização com CSS e interatividade com JavaScript.
+# 🚀 Frontend Mentor — Coleção de Desafios
 
-Site dos desafios: https://www.frontendmentor.io/challenges
+Este repositório reúne os **desafios concluídos do Frontend Mentor**, desenvolvidos com o objetivo de aprimorar habilidades essenciais em **desenvolvimento front-end**, aplicando boas práticas de código e foco em qualidade visual.
 
-Desafios concluidos
+🔗 **Plataforma dos desafios:**  
+https://www.frontendmentor.io/challenges
 
-Social-links-profile: https://igorgomesl.github.io/frontend_mentor/Social-links-profile/
+## ✅ Desafios Concluídos
 
-blog-preview-card: https://igorgomesl.github.io/frontend_mentor/blog-preview-card/
+- **Social Links Profile**  
+  🔗 https://igorgomesl.github.io/frontend_mentor/Social-links-profile/
 
-qr-code-component-main: https://igorgomesl.github.io/frontend_mentor/qr-code-component-main/
+- **Blog Preview Card**  
+  🔗 https://igorgomesl.github.io/frontend_mentor/blog-preview-card/
+
+- **QR Code Component**  
+  🔗 https://igorgomesl.github.io/frontend_mentor/qr-code-component-main/
+
